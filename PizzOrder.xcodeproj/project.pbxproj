@@ -14,6 +14,9 @@
 		7AD66D15251D45A100811C65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AD66D14251D45A100811C65 /* Assets.xcassets */; };
 		7AD66D18251D45A100811C65 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AD66D17251D45A100811C65 /* Preview Assets.xcassets */; };
 		7AD66D1B251D45A100811C65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AD66D19251D45A100811C65 /* LaunchScreen.storyboard */; };
+		7AD66D2F251D4A3800811C65 /* Order+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD66D2D251D4A3800811C65 /* Order+CoreDataClass.swift */; };
+		7AD66D30251D4A3800811C65 /* Order+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD66D2E251D4A3800811C65 /* Order+CoreDataProperties.swift */; };
+		7AD66D35251D4BC600811C65 /* OrderSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD66D34251D4BC600811C65 /* OrderSheet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		7AD66D17251D45A100811C65 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7AD66D1A251D45A100811C65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7AD66D1C251D45A100811C65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AD66D2D251D4A3800811C65 /* Order+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Order+CoreDataClass.swift"; path = "../Order+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7AD66D2E251D4A3800811C65 /* Order+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Order+CoreDataProperties.swift"; path = "../Order+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7AD66D34251D4BC600811C65 /* OrderSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderSheet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +64,12 @@
 		7AD66D0A251D459F00811C65 /* PizzOrder */ = {
 			isa = PBXGroup;
 			children = (
+				7AD66D2D251D4A3800811C65 /* Order+CoreDataClass.swift */,
+				7AD66D2E251D4A3800811C65 /* Order+CoreDataProperties.swift */,
 				7AD66D0B251D459F00811C65 /* AppDelegate.swift */,
 				7AD66D0D251D459F00811C65 /* SceneDelegate.swift */,
 				7AD66D0F251D459F00811C65 /* ContentView.swift */,
+				7AD66D34251D4BC600811C65 /* OrderSheet.swift */,
 				7AD66D14251D45A100811C65 /* Assets.xcassets */,
 				7AD66D19251D45A100811C65 /* LaunchScreen.storyboard */,
 				7AD66D1C251D45A100811C65 /* Info.plist */,
@@ -148,9 +157,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AD66D30251D4A3800811C65 /* Order+CoreDataProperties.swift in Sources */,
 				7AD66D0C251D459F00811C65 /* AppDelegate.swift in Sources */,
 				7AD66D0E251D459F00811C65 /* SceneDelegate.swift in Sources */,
 				7AD66D10251D459F00811C65 /* ContentView.swift in Sources */,
+				7AD66D2F251D4A3800811C65 /* Order+CoreDataClass.swift in Sources */,
+				7AD66D35251D4BC600811C65 /* OrderSheet.swift in Sources */,
 				7AD66D13251D45A000811C65 /* PizzOrder.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
